@@ -7,5 +7,6 @@ RUN go mod tidy
 
 RUN ["apt-get", "update"]
 RUN ["apt-get", "install", "-y", "vim"]
+RUN ["apt-get", "install", "-y", "curl"]
 
 CMD ["air"]
